@@ -3,108 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CheerLens Support - Get help and find answers to frequently asked questions.">
     <title>Support - CheerLens</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <div class="logo">
-                    <h1><a href="index.html" style="text-decoration: none; color: #007AFF;">CheerLens</a></h1>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="privacy.html">Privacy</a></li>
-                    <li><a href="support.html">Support</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <div class="page-content">
-            <h1>Support</h1>
-            <p>We're here to help! If you have questions, feedback, or need assistance with CheerLens, please reach out to us.</p>
-
-            <h2>Contact Us</h2>
-            <p>For support inquiries, feedback, or questions, please email us at:</p>
-            <p><strong><a href="mailto:michaellin5477@gmail.com">michaellin5477@gmail.com</a></strong></p>
-
-            <h2>Frequently Asked Questions</h2>
-
-            <h3>How does CheerLens work?</h3>
-            <p>CheerLens uses your device's camera and Google ML Kit Face Detection to analyze your facial expressions in real-time. All processing happens locally on your device—your data never leaves your phone.</p>
-
-            <h3>Do I need an internet connection?</h3>
-            <p>No! CheerLens works completely offline. The only time you need internet is for downloading the app and managing subscriptions through the App Store.</p>
-
-            <h3>Is my data private?</h3>
-            <p>Absolutely! All facial analysis is processed locally on your device. We don't collect, store, or transmit any of your data. Your privacy is our top priority.</p>
-
-            <h3>What's included in the free trial?</h3>
-            <p>The free trial gives you full access to all Premium features for 3 days. After the trial, you can continue with Premium or use the free plan with 3 minutes of daily practice.</p>
-
-            <h3>How do I cancel my subscription?</h3>
-            <p>You can manage or cancel your subscription at any time through the App Store:</p>
-            <ol>
-                <li>Open Settings on your iPhone/iPad</li>
-                <li>Tap your name at the top</li>
-                <li>Tap "Subscriptions"</li>
-                <li>Select CheerLens</li>
-                <li>Choose to cancel or modify your subscription</li>
-            </ol>
-            <p>You can also cancel directly from the app by going to Settings → Manage Subscription.</p>
-
-            <h3>Can I use CheerLens on multiple devices?</h3>
-            <p>Yes! Your subscription is tied to your Apple ID, so you can use CheerLens on any device signed in with the same Apple ID.</p>
-
-            <h3>What devices are supported?</h3>
-            <p>CheerLens requires iOS 16.6 or later and is optimized for iPhone and iPad. The app requires a front-facing camera for facial expression analysis.</p>
-
-            <h3>I'm having technical issues. What should I do?</h3>
-            <p>If you're experiencing technical problems:</p>
-            <ol>
-                <li>Make sure you've granted camera permissions to CheerLens</li>
-                <li>Ensure you're using iOS 16.6 or later</li>
-                <li>Try restarting the app</li>
-                <li>If issues persist, contact us at <a href="mailto:michaellin5477@gmail.com">michaellin5477@gmail.com</a> with details about the issue</li>
-            </ol>
-
-            <h3>How do I provide feedback?</h3>
-            <p>We love hearing from you! You can provide feedback:</p>
-            <ul>
-                <li>Through the app: Settings → Support → Send Feedback</li>
-                <li>Via email: <a href="mailto:michaellin5477@gmail.com">michaellin5477@gmail.com</a></li>
-            </ul>
-
-            <h2>Tips for Best Results</h2>
-            <ul>
-                <li><strong>Good Lighting:</strong> Ensure you're in a well-lit area so the camera can clearly see your face</li>
-                <li><strong>Face the Camera:</strong> Position yourself so your face is clearly visible in the camera view</li>
-                <li><strong>Practice Regularly:</strong> Consistent practice will help you improve your smile confidence</li>
-                <li><strong>Be Natural:</strong> Try to smile naturally—forced smiles are less effective</li>
-            </ul>
-
-            <h2>App Features</h2>
-            <p>CheerLens offers two practice modes:</p>
-            <ul>
-                <li><strong>Smile Training (Q&A Practice):</strong> Answer interview questions while maintaining your smile</li>
-                <li><strong>Smile Monitoring:</strong> Practice speaking naturally while monitoring your smile throughout</li>
-            </ul>
-            <p>Both modes provide real-time feedback and detailed analytics to help you improve.</p>
-        </div>
-    </main>
-
-    <footer>
+    <!-- Navigation -->
+    <nav class="navbar">
         <div class="container">
-            <p>&copy; 2025 CheerLens. All rights reserved.</p>
-            <ul class="footer-links">
-                <li><a href="privacy.html">Privacy Policy</a></li>
-                <li><a href="support.html">Support</a></li>
-            </ul>
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">😊</span>
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <span class="logo-text">CheerLens</span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#features">Features</a>
+                    <a href="privacy.html">Privacy</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Support Content -->
+    <section class="support" style="padding: 4rem 0; background: var(--bg-light); min-height: 80vh;">
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h1 style="font-size: 2.5rem; text-align: center; margin-bottom: 1rem; color: var(--text-primary);">Support & FAQ</h1>
+                <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem;">Find answers to common questions about CheerLens</p>
+
+                <div style="background: white; padding: 3rem; border-radius: 1rem; box-shadow: var(--shadow-md);">
+                    <div class="faq-section" style="margin-bottom: 3rem;">
+                        <h2 style="color: var(--text-primary); margin-bottom: 1.5rem; font-size: 1.5rem;">Frequently Asked Questions</h2>
+
+                        <div class="faq-item" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color);">
+                            <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.25rem;">What is CheerLens?</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                                CheerLens is a professional iOS app designed to help you improve your smile confidence and interview skills. It uses AI-powered facial expression analysis to provide real-time feedback on your smile performance during practice sessions.
+                            </p>
+                        </div>
+
+                        <div class="faq-item" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color);">
+                            <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.25rem;">What features are included?</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 1rem;">
+                                All features are available in both the free plan and unlimited access plan:
+                            </p>
+                            <ul style="margin-left: 2rem; color: var(--text-secondary); line-height: 1.8;">
+                                <li>Smile Training: Practice answering interview questions with real-time smile analysis</li>
+                                <li>Smile Monitoring: Monitor your smile expressions without questions</li>
+                                <li>Performance Analytics: Detailed charts and insights showing your smile ratio</li>
+                                <li>Customizable Sensitivity: Adjust smile detection sensitivity to your preference</li>
+                                <li>100% Offline: All features work without internet connection</li>
+                            </ul>
+                            <p style="color: var(--text-secondary); line-height: 1.8; margin-top: 1rem;">
+                                The only difference between plans is the daily time limit (3 minutes for free plan, unlimited for paid plan).
+                            </p>
+                        </div>
+
+                        <div class="faq-item" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color);">
+                            <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.25rem;">How does the free plan work?</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                                The free plan provides 3 minutes of total usage time per day (combined for both Smile Training and Smile Monitor features). All features are available, with only the daily time limit restriction. The daily usage limit resets every 24 hours based on calendar days. You can upgrade to unlimited access at any time through a one-time purchase.
+                            </p>
+                        </div>
+
+                        <div class="faq-item" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color);">
+                            <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.25rem;">What is the unlimited access purchase?</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                                Unlimited access is a one-time purchase of $29.99 that removes the daily time limit permanently. Once purchased, you'll have unlimited access to all features for as long as you use the app. The purchase is tied to your Apple ID and can be restored on other devices using the same Apple ID.
+                            </p>
+                        </div>
+
+                        <div class="faq-item" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color);">
+                            <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.25rem;">How do I restore purchases?</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                                To restore your purchase, go to Settings in the app and tap "Restore Purchases" in the Purchase Status section. This will restore your unlimited access purchase if you've previously purchased it with the same Apple ID. The purchase is automatically restored when you reinstall the app on the same Apple ID.
+                            </p>
+                        </div>
+
+                        <div class="faq-item" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color);">
+                            <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.25rem;">Does the app require an internet connection?</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                                No, CheerLens works completely offline. All features, including smile detection and analysis, work without an internet connection. The only time an internet connection is used is for in-app purchases (processed by Apple's App Store) and optional feedback submission.
+                            </p>
+                        </div>
+
+                        <div class="faq-item" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color);">
+                            <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.25rem;">What is Smile Detection Sensitivity?</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                                Smile Detection Sensitivity is a setting that allows you to adjust how sensitive the app is to detecting smiles. You can fine-tune this setting in the app's settings to match your personal smile style. A higher sensitivity will detect more subtle smiles, while a lower sensitivity requires a more pronounced smile to be detected.
+                            </p>
+                        </div>
+
+                        <div class="faq-item" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color);">
+                            <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.25rem;">How does Smile Training work?</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                                In Smile Training mode, you'll practice answering interview questions while the app analyzes your smile in real-time. The app provides various question sets to practice with, and you can see your smile performance as you answer. After each session, you'll get detailed analytics showing your smile ratio and performance trends.
+                            </p>
+                        </div>
+
+                        <div class="faq-item" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color);">
+                            <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.25rem;">How does Smile Monitor work?</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                                Smile Monitor mode allows you to practice your smile expressions without answering questions. This mode focuses purely on facial expressions, making it perfect for dedicated smile practice sessions. The app continuously monitors your smile and provides real-time feedback.
+                            </p>
+                        </div>
+
+                        <div class="faq-item" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color);">
+                            <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.25rem;">Does the app collect my personal data?</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                                No, CheerLens does not collect, store, or transmit any personal data. All processing is done locally on your device. Practice session history and results are stored only on your device and never leave your device. For more details, please see our <a href="privacy.html" style="color: var(--primary-color);">Privacy Policy</a>.
+                            </p>
+                        </div>
+
+                        <div class="faq-item" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color);">
+                            <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.25rem;">What devices are supported?</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                                CheerLens requires iOS 14.0 or later and a device with a front-facing camera. The app is optimized for iPhone and iPad.
+                            </p>
+                        </div>
+
+                        <div class="faq-item" style="margin-bottom: 2rem;">
+                            <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.25rem;">How can I contact support?</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                                If you have any questions or need assistance, please use the in-app feedback feature. Go to Settings → Support → Send Feedback to contact us. We'll do our best to respond to your inquiries.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <span class="logo-icon">😊</span>
+                        <span class="logo-text">CheerLens</span>
+                    </div>
+                    <p>Professional smile detection and interview training app.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="index.html#features">Features</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>For support and inquiries, please use the in-app feedback feature.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CheerLens. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 </body>
 </html>
-

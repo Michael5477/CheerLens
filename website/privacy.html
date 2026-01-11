@@ -3,109 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CheerLens Privacy Policy - Learn how we protect your privacy and handle your data.">
     <title>Privacy Policy - CheerLens</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <div class="logo">
-                    <h1><a href="index.html" style="text-decoration: none; color: #007AFF;">CheerLens</a></h1>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="privacy.html">Privacy</a></li>
-                    <li><a href="support.html">Support</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <div class="page-content">
-            <h1>Privacy Policy</h1>
-            <p><strong>Last Updated:</strong> December 2024</p>
-
-            <h2>Your Privacy is Our Priority</h2>
-            <p>CheerLens is designed with privacy at its core. We believe your personal data should remain yours, and we've built our app to ensure maximum privacy and security.</p>
-
-            <h2>Local Processing Only</h2>
-            <p>All facial expression analysis in CheerLens is processed <strong>locally on your device</strong> using Google ML Kit Face Detection technology. This means:</p>
-            <ul>
-                <li>Your facial data never leaves your device</li>
-                <li>No images or video are stored</li>
-                <li>No data is transmitted to any server</li>
-                <li>No internet connection is required for core functionality</li>
-            </ul>
-
-            <h2>What Data We Don't Collect</h2>
-            <p>CheerLens does NOT collect, store, or transmit:</p>
-            <ul>
-                <li>Facial images or video recordings</li>
-                <li>Personal identification information</li>
-                <li>Usage analytics or tracking data</li>
-                <li>Location information</li>
-                <li>Contact information (unless you voluntarily contact support)</li>
-            </ul>
-
-            <h2>Camera Usage</h2>
-            <p>CheerLens requires camera access to analyze your facial expressions in real-time. The camera is used solely for:</p>
-            <ul>
-                <li>Real-time facial expression detection</li>
-                <li>Calculating smile confidence scores</li>
-                <li>Providing practice feedback</li>
-            </ul>
-            <p>All processing happens instantly and locally. No camera footage is recorded or stored.</p>
-
-            <h2>Photo Library Access</h2>
-            <p>If you choose to send feedback through the app, you may optionally attach a screenshot. Photo library access is only used for this purpose and is completely optional.</p>
-
-            <h2>Subscription Information</h2>
-            <p>Subscription purchases are processed through Apple's App Store. We do not have access to your payment information. Apple handles all payment processing securely.</p>
-
-            <h2>No Account Required</h2>
-            <p>CheerLens does not require you to create an account. All app data is stored locally on your device using standard iOS storage mechanisms.</p>
-
-            <h2>Third-Party Services</h2>
-            <p>CheerLens uses the following third-party services:</p>
-            <ul>
-                <li><strong>Google ML Kit Face Detection:</strong> Used for local facial expression analysis. All processing happens on your device.</li>
-                <li><strong>Apple App Store:</strong> Used for subscription management and payment processing.</li>
-            </ul>
-            <p>Neither of these services receives your facial data or personal information.</p>
-
-            <h2>Data Security</h2>
-            <p>Since all processing happens locally on your device, your data is secured by:</p>
-            <ul>
-                <li>iOS device encryption</li>
-                <li>Local processing (no network transmission)</li>
-                <li>No cloud storage</li>
-            </ul>
-
-            <h2>Children's Privacy</h2>
-            <p>CheerLens is suitable for users of all ages. We do not knowingly collect any personal information from anyone, including children, because we don't collect personal information at all.</p>
-
-            <h2>Changes to This Policy</h2>
-            <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date.</p>
-
-            <h2>Contact Us</h2>
-            <p>If you have questions about this Privacy Policy, please contact us through the Support section in the app or email us at <a href="mailto:michaellin5477@gmail.com">michaellin5477@gmail.com</a>.</p>
-
-            <h2>Your Rights</h2>
-            <p>Since we don't collect or store your personal data, there's no data to access, modify, or delete. Your privacy is protected by design.</p>
-        </div>
-    </main>
-
-    <footer>
+    <!-- Navigation -->
+    <nav class="navbar">
         <div class="container">
-            <p>&copy; 2025 CheerLens. All rights reserved.</p>
-            <ul class="footer-links">
-                <li><a href="privacy.html">Privacy Policy</a></li>
-                <li><a href="support.html">Support</a></li>
-            </ul>
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">😊</span>
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <span class="logo-text">CheerLens</span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#features">Features</a>
+                    <a href="support.html">Support</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Privacy Policy Content -->
+    <section class="privacy-policy" style="padding: 4rem 0; background: var(--bg-light); min-height: 80vh;">
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto; background: white; padding: 3rem; border-radius: 1rem; box-shadow: var(--shadow-md);">
+                <h1 style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--text-primary);">Privacy Policy</h1>
+                <p style="color: var(--text-secondary); margin-bottom: 2rem;">Last updated: January 2024</p>
+
+                <div style="line-height: 1.8; color: var(--text-secondary);">
+                    <h2 style="color: var(--text-primary); margin-top: 2rem; margin-bottom: 1rem;">1. Introduction</h2>
+                    <p style="margin-bottom: 1.5rem;">
+                        CheerLens ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our mobile application.
+                    </p>
+
+                    <h2 style="color: var(--text-primary); margin-top: 2rem; margin-bottom: 1rem;">2. Data Collection</h2>
+                    <p style="margin-bottom: 1.5rem;">
+                        <strong>We do not collect, store, or transmit any personal data.</strong> All processing is done locally on your device. We do not:
+                    </p>
+                    <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                        <li>Collect personal information</li>
+                        <li>Store data on external servers</li>
+                        <li>Transmit data over the internet</li>
+                        <li>Share data with third parties</li>
+                        <li>Use analytics or tracking services</li>
+                    </ul>
+
+                    <h2 style="color: var(--text-primary); margin-top: 2rem; margin-bottom: 1rem;">3. Local Data Storage</h2>
+                    <p style="margin-bottom: 1.5rem;">
+                        The app stores the following data locally on your device:
+                    </p>
+                    <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                        <li>Practice session history (stored on device only)</li>
+                        <li>Smile detection results (stored on device only)</li>
+                        <li>App settings and preferences (stored on device only)</li>
+                        <li>Purchase status (managed by Apple's App Store)</li>
+                    </ul>
+                    <p style="margin-bottom: 1.5rem;">
+                        This data never leaves your device and is not accessible to us or any third parties.
+                    </p>
+
+                    <h2 style="color: var(--text-primary); margin-top: 2rem; margin-bottom: 1rem;">4. Camera Access</h2>
+                    <p style="margin-bottom: 1.5rem;">
+                        CheerLens requires camera access to analyze your facial expressions. All camera processing is done in real-time on your device. No images or video are stored, recorded, or transmitted.
+                    </p>
+
+                    <h2 style="color: var(--text-primary); margin-top: 2rem; margin-bottom: 1rem;">5. Internet Connection</h2>
+                    <p style="margin-bottom: 1.5rem;">
+                        CheerLens works completely offline. No internet connection is required for core functionality. The only time an internet connection is used is for:
+                    </p>
+                    <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                        <li>In-app purchases (processed by Apple's App Store)</li>
+                        <li>Optional feedback submission (if you choose to send feedback)</li>
+                    </ul>
+
+                    <h2 style="color: var(--text-primary); margin-top: 2rem; margin-bottom: 1rem;">6. In-App Purchases</h2>
+                    <p style="margin-bottom: 1.5rem;">
+                        Purchase transactions are processed by Apple through the App Store. We do not have access to your payment information. Apple handles all payment processing according to their privacy policy.
+                    </p>
+
+                    <h2 style="color: var(--text-primary); margin-top: 2rem; margin-bottom: 1rem;">7. Children's Privacy</h2>
+                    <p style="margin-bottom: 1.5rem;">
+                        CheerLens does not knowingly collect information from children. Since we do not collect any data, there is no risk of collecting children's information.
+                    </p>
+
+                    <h2 style="color: var(--text-primary); margin-top: 2rem; margin-bottom: 1rem;">8. Changes to This Policy</h2>
+                    <p style="margin-bottom: 1.5rem;">
+                        We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.
+                    </p>
+
+                    <h2 style="color: var(--text-primary); margin-top: 2rem; margin-bottom: 1rem;">9. Contact Us</h2>
+                    <p style="margin-bottom: 1.5rem;">
+                        If you have any questions about this Privacy Policy, please contact us through the in-app feedback feature.
+                    </p>
+
+                    <h2 style="color: var(--text-primary); margin-top: 2rem; margin-bottom: 1rem;">10. Your Rights</h2>
+                    <p style="margin-bottom: 1.5rem;">
+                        Since all data is stored locally on your device, you have complete control:
+                    </p>
+                    <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                        <li>You can delete the app at any time, which removes all local data</li>
+                        <li>You can clear app data through your device settings</li>
+                        <li>You have full control over your data since it never leaves your device</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <span class="logo-icon">😊</span>
+                        <span class="logo-text">CheerLens</span>
+                    </div>
+                    <p>Professional smile detection and interview training app.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="index.html#features">Features</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>For support and inquiries, please use the in-app feedback feature.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CheerLens. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 </body>
 </html>
-
