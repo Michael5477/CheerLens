@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20164892E77B84C00CB4D70 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20164882E77B84C00CB4D70 /* AboutView.swift */; };
+		A201648D2E77C05200CB4D70 /* UsageLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A201648C2E77C05200CB4D70 /* UsageLimitView.swift */; };
+		A201648F2E77C05200CB4D70 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A201648B2E77C05200CB4D70 /* SubscriptionView.swift */; };
+		A20164A12E794EED00CB4D70 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20164A02E794EED00CB4D70 /* PaywallView.swift */; };
+		A20164A32E79554600CB4D70 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20164A22E79554600CB4D70 /* SharedComponents.swift */; };
+		A20164A52E797D9C00CB4D70 /* CongratulationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20164A42E797D9C00CB4D70 /* CongratulationView.swift */; };
+		A20164AA2E7AC8C000CB4D70 /* FreeTrialEndedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20164A82E7AC8BF00CB4D70 /* FreeTrialEndedView.swift */; };
+		A20164AB2E7AC8C000CB4D70 /* TrialEndingNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20164A92E7AC8BF00CB4D70 /* TrialEndingNotificationView.swift */; };
+		A20164AC2E7AC8C000CB4D70 /* CancellationConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20164A62E7AC8BF00CB4D70 /* CancellationConfirmationView.swift */; };
+		A20164BF2E7C0C4000CB4D70 /* CancellationAcknowledgmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20164BE2E7C0C4000CB4D70 /* CancellationAcknowledgmentView.swift */; };
+		A20164C32E7D573F00CB4D70 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20164C22E7D573F00CB4D70 /* SettingsView.swift */; };
+		A243D1512EA232E4007C762B /* DebugTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A243D1502EA232E4007C762B /* DebugTimeManager.swift */; };
+		A243D1532EA232F6007C762B /* DebugTimeControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A243D1522EA232F6007C762B /* DebugTimeControlsView.swift */; };
+		A28570D72E62AF6D00D47D66 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28570D62E62AF4E00D47D66 /* Models.swift */; };
+		A28570D92E62B06900D47D66 /* QuestionSetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28570D82E62B03700D47D66 /* QuestionSetData.swift */; };
+		A28570DB2E62B2D300D47D66 /* QuestionSetSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28570DA2E62B25D00D47D66 /* QuestionSetSelectionView.swift */; };
+		A28570DF2E62FA1B00D47D66 /* app.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28570DE2E62FA1300D47D66 /* app.swift */; };
+		A28570E12E6432B300D47D66 /* QuestionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28570E02E64329700D47D66 /* QuestionsListView.swift */; };
+		A28695442E64884400D1766D /* QAPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28695432E64884400D1766D /* QAPracticeView.swift */; };
+		A28695462E64885600D1766D /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28695452E64885600D1766D /* ResultsView.swift */; };
+		A292ECF22E76690C00D579CB /* RouteB_SmileMonitoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A292ECF02E76690C00D579CB /* RouteB_SmileMonitoringView.swift */; };
+		A292ECF32E76690C00D579CB /* RouteA_SmileTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A292ECEF2E76690C00D579CB /* RouteA_SmileTrainingView.swift */; };
+		A292ECF42E76690C00D579CB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A292ECF12E76690C00D579CB /* WelcomeView.swift */; };
+		A2985FC72F10AA6500444F5D /* DailyLimitReachedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2985FC52F10AA6300444F5D /* DailyLimitReachedView.swift */; };
+		A2985FC82F10AA6500444F5D /* SimplePurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2985FC62F10AA6300444F5D /* SimplePurchaseManager.swift */; };
+		A29D35DE2ED6F08B00946BDA /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D35DB2ED6F08B00946BDA /* FAQView.swift */; };
+		A29D35DF2ED6F08B00946BDA /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D35DC2ED6F08B00946BDA /* FeedbackView.swift */; };
+		A29D35E02ED6F08B00946BDA /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D35DD2ED6F08B00946BDA /* SupportView.swift */; };
+		A29D36232ED7FA7C00946BDA /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D36212ED7FA7C00946BDA /* PrivacyPolicyView.swift */; };
+		A29D36242ED7FA7C00946BDA /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D36222ED7FA7C00946BDA /* TermsOfServiceView.swift */; };
+		A2CA88772E7041FB006042C0 /* PracticeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CA88762E7041FA006042C0 /* PracticeDataManager.swift */; };
+		A2CA88792E704212006042C0 /* PerformanceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CA88782E704212006042C0 /* PerformanceMonitor.swift */; };
+		A2CA887B2E704225006042C0 /* NotificationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CA887A2E704225006042C0 /* NotificationExtensions.swift */; };
+		A2CA887D2E704238006042C0 /* AudioResourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CA887C2E704238006042C0 /* AudioResourceManager.swift */; };
+		A2CA887F2E705578006042C0 /* UltimateCleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CA887E2E705578006042C0 /* UltimateCleaner.swift */; };
+		A2CA88812E712C14006042C0 /* MemoryProfiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CA88802E712C14006042C0 /* MemoryProfiler.swift */; };
+		A2F8F1E42E8D181400B32A19 /* CancellationFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8F1E32E8D181400B32A19 /* CancellationFlowView.swift */; };
+		A2F9A2F02E65941F0070AD2B /* typing.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2F9A2EF2E65941F0070AD2B /* typing.wav */; };
+		DA853DA1ED566D0F06A102DC /* Pods_SmileDetectionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91A9B8149295A6BA784B24C /* Pods_SmileDetectionApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CFF8CCE96342D6B0D90BDFA /* Pods-SmileDetectionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmileDetectionApp.debug.xcconfig"; path = "Target Support Files/Pods-SmileDetectionApp/Pods-SmileDetectionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A20164882E77B84C00CB4D70 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		A201648B2E77C05200CB4D70 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		A201648C2E77C05200CB4D70 /* UsageLimitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageLimitView.swift; sourceTree = "<group>"; };
+		A20164A02E794EED00CB4D70 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		A20164A22E79554600CB4D70 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		A20164A42E797D9C00CB4D70 /* CongratulationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationView.swift; sourceTree = "<group>"; };
+		A20164A62E7AC8BF00CB4D70 /* CancellationConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellationConfirmationView.swift; sourceTree = "<group>"; };
+		A20164A82E7AC8BF00CB4D70 /* FreeTrialEndedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeTrialEndedView.swift; sourceTree = "<group>"; };
+		A20164A92E7AC8BF00CB4D70 /* TrialEndingNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialEndingNotificationView.swift; sourceTree = "<group>"; };
+		A20164BE2E7C0C4000CB4D70 /* CancellationAcknowledgmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellationAcknowledgmentView.swift; sourceTree = "<group>"; };
+		A20164C22E7D573F00CB4D70 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A243D1502EA232E4007C762B /* DebugTimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugTimeManager.swift; sourceTree = "<group>"; };
+		A243D1522EA232F6007C762B /* DebugTimeControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugTimeControlsView.swift; sourceTree = "<group>"; };
+		A28570D62E62AF4E00D47D66 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A28570D82E62B03700D47D66 /* QuestionSetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSetData.swift; sourceTree = "<group>"; };
+		A28570DA2E62B25D00D47D66 /* QuestionSetSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSetSelectionView.swift; sourceTree = "<group>"; };
+		A28570DE2E62FA1300D47D66 /* app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app.swift; sourceTree = "<group>"; };
+		A28570E02E64329700D47D66 /* QuestionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsListView.swift; sourceTree = "<group>"; };
+		A28695432E64884400D1766D /* QAPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAPracticeView.swift; sourceTree = "<group>"; };
+		A28695452E64885600D1766D /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		A292ECEF2E76690C00D579CB /* RouteA_SmileTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteA_SmileTrainingView.swift; sourceTree = "<group>"; };
+		A292ECF02E76690C00D579CB /* RouteB_SmileMonitoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteB_SmileMonitoringView.swift; sourceTree = "<group>"; };
+		A292ECF12E76690C00D579CB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A2985FC52F10AA6300444F5D /* DailyLimitReachedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLimitReachedView.swift; sourceTree = "<group>"; };
+		A2985FC62F10AA6300444F5D /* SimplePurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePurchaseManager.swift; sourceTree = "<group>"; };
+		A29D35DB2ED6F08B00946BDA /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		A29D35DC2ED6F08B00946BDA /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		A29D35DD2ED6F08B00946BDA /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		A29D36212ED7FA7C00946BDA /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		A29D36222ED7FA7C00946BDA /* TermsOfServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
+		A2CA88762E7041FA006042C0 /* PracticeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeDataManager.swift; sourceTree = "<group>"; };
+		A2CA88782E704212006042C0 /* PerformanceMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceMonitor.swift; sourceTree = "<group>"; };
+		A2CA887A2E704225006042C0 /* NotificationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExtensions.swift; sourceTree = "<group>"; };
+		A2CA887C2E704238006042C0 /* AudioResourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioResourceManager.swift; sourceTree = "<group>"; };
+		A2CA887E2E705578006042C0 /* UltimateCleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimateCleaner.swift; sourceTree = "<group>"; };
+		A2CA88802E712C14006042C0 /* MemoryProfiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryProfiler.swift; sourceTree = "<group>"; };
+		A2DA44E32E5B18A3003D2749 /* SmileDetectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileDetectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F8F1E32E8D181400B32A19 /* CancellationFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellationFlowView.swift; sourceTree = "<group>"; };
+		A2F9A2EF2E65941F0070AD2B /* typing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = typing.wav; sourceTree = "<group>"; };
+		BDE4A02DB10CC564C7944A10 /* Pods-SmileDetectionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmileDetectionApp.release.xcconfig"; path = "Target Support Files/Pods-SmileDetectionApp/Pods-SmileDetectionApp.release.xcconfig"; sourceTree = "<group>"; };
+		D91A9B8149295A6BA784B24C /* Pods_SmileDetectionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmileDetectionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A2DA44F52E5B18A7003D2749 /* Exceptions for "SmileDetectionApp" folder in "SmileDetectionApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A2DA44E22E5B18A3003D2749 /* SmileDetectionApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A2DA44E52E5B18A3003D2749 /* SmileDetectionApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A2DA44F52E5B18A7003D2749 /* Exceptions for "SmileDetectionApp" folder in "SmileDetectionApp" target */,
+			);
+			path = SmileDetectionApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2DA44E02E5B18A3003D2749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA853DA1ED566D0F06A102DC /* Pods_SmileDetectionApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AABEABC9FF1C08100AEE76E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D91A9B8149295A6BA784B24C /* Pods_SmileDetectionApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		348C8B8B9E595C2549305D57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CFF8CCE96342D6B0D90BDFA /* Pods-SmileDetectionApp.debug.xcconfig */,
+				BDE4A02DB10CC564C7944A10 /* Pods-SmileDetectionApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2DA44DA2E5B18A2003D2749 = {
+			isa = PBXGroup;
+			children = (
+				A2985FC52F10AA6300444F5D /* DailyLimitReachedView.swift */,
+				A2985FC62F10AA6300444F5D /* SimplePurchaseManager.swift */,
+				A29D36212ED7FA7C00946BDA /* PrivacyPolicyView.swift */,
+				A29D36222ED7FA7C00946BDA /* TermsOfServiceView.swift */,
+				A29D35DB2ED6F08B00946BDA /* FAQView.swift */,
+				A29D35DC2ED6F08B00946BDA /* FeedbackView.swift */,
+				A29D35DD2ED6F08B00946BDA /* SupportView.swift */,
+				A243D1522EA232F6007C762B /* DebugTimeControlsView.swift */,
+				A243D1502EA232E4007C762B /* DebugTimeManager.swift */,
+				A2F8F1E32E8D181400B32A19 /* CancellationFlowView.swift */,
+				A20164C22E7D573F00CB4D70 /* SettingsView.swift */,
+				A20164BE2E7C0C4000CB4D70 /* CancellationAcknowledgmentView.swift */,
+				A20164A62E7AC8BF00CB4D70 /* CancellationConfirmationView.swift */,
+				A20164A82E7AC8BF00CB4D70 /* FreeTrialEndedView.swift */,
+				A20164A92E7AC8BF00CB4D70 /* TrialEndingNotificationView.swift */,
+				A20164A42E797D9C00CB4D70 /* CongratulationView.swift */,
+				A20164A22E79554600CB4D70 /* SharedComponents.swift */,
+				A20164A02E794EED00CB4D70 /* PaywallView.swift */,
+				A201648B2E77C05200CB4D70 /* SubscriptionView.swift */,
+				A201648C2E77C05200CB4D70 /* UsageLimitView.swift */,
+				A20164882E77B84C00CB4D70 /* AboutView.swift */,
+				A292ECEF2E76690C00D579CB /* RouteA_SmileTrainingView.swift */,
+				A292ECF02E76690C00D579CB /* RouteB_SmileMonitoringView.swift */,
+				A292ECF12E76690C00D579CB /* WelcomeView.swift */,
+				A2CA88802E712C14006042C0 /* MemoryProfiler.swift */,
+				A2CA887E2E705578006042C0 /* UltimateCleaner.swift */,
+				A2CA887C2E704238006042C0 /* AudioResourceManager.swift */,
+				A2CA887A2E704225006042C0 /* NotificationExtensions.swift */,
+				A2CA88782E704212006042C0 /* PerformanceMonitor.swift */,
+				A2CA88762E7041FA006042C0 /* PracticeDataManager.swift */,
+				A2F9A2EF2E65941F0070AD2B /* typing.wav */,
+				A28695432E64884400D1766D /* QAPracticeView.swift */,
+				A28695452E64885600D1766D /* ResultsView.swift */,
+				A28570E02E64329700D47D66 /* QuestionsListView.swift */,
+				A28570DE2E62FA1300D47D66 /* app.swift */,
+				A28570DA2E62B25D00D47D66 /* QuestionSetSelectionView.swift */,
+				A28570D82E62B03700D47D66 /* QuestionSetData.swift */,
+				A28570D62E62AF4E00D47D66 /* Models.swift */,
+				A2DA44E52E5B18A3003D2749 /* SmileDetectionApp */,
+				A2DA44E42E5B18A3003D2749 /* Products */,
+				348C8B8B9E595C2549305D57 /* Pods */,
+				1AABEABC9FF1C08100AEE76E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2DA44E42E5B18A3003D2749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2DA44E32E5B18A3003D2749 /* SmileDetectionApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2DA44E22E5B18A3003D2749 /* SmileDetectionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DA44F62E5B18A7003D2749 /* Build configuration list for PBXNativeTarget "SmileDetectionApp" */;
+			buildPhases = (
+				75B351697304EA80F0B46409 /* [CP] Check Pods Manifest.lock */,
+				A2DA44DF2E5B18A3003D2749 /* Sources */,
+				A2DA44E02E5B18A3003D2749 /* Frameworks */,
+				A2DA44E12E5B18A3003D2749 /* Resources */,
+				1DDF5FBC57C5A7A4A2D60279 /* [CP] Embed Pods Frameworks */,
+				25A53D4BD479E379F04C828A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A2DA44E52E5B18A3003D2749 /* SmileDetectionApp */,
+			);
+			name = SmileDetectionApp;
+			productName = SmileDetectionApp;
+			productReference = A2DA44E32E5B18A3003D2749 /* SmileDetectionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2DA44DB2E5B18A2003D2749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A2DA44E22E5B18A3003D2749 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = A2DA44DE2E5B18A2003D2749 /* Build configuration list for PBXProject "SmileDetectionApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2DA44DA2E5B18A2003D2749;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A2DA44E42E5B18A3003D2749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2DA44E22E5B18A3003D2749 /* SmileDetectionApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2DA44E12E5B18A3003D2749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F9A2F02E65941F0070AD2B /* typing.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DDF5FBC57C5A7A4A2D60279 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmileDetectionApp/Pods-SmileDetectionApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmileDetectionApp/Pods-SmileDetectionApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmileDetectionApp/Pods-SmileDetectionApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25A53D4BD479E379F04C828A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmileDetectionApp/Pods-SmileDetectionApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmileDetectionApp/Pods-SmileDetectionApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmileDetectionApp/Pods-SmileDetectionApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75B351697304EA80F0B46409 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmileDetectionApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DA44DF2E5B18A3003D2749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CA887D2E704238006042C0 /* AudioResourceManager.swift in Sources */,
+				A20164A12E794EED00CB4D70 /* PaywallView.swift in Sources */,
+				A29D35DE2ED6F08B00946BDA /* FAQView.swift in Sources */,
+				A29D35DF2ED6F08B00946BDA /* FeedbackView.swift in Sources */,
+				A29D35E02ED6F08B00946BDA /* SupportView.swift in Sources */,
+				A28570DF2E62FA1B00D47D66 /* app.swift in Sources */,
+				A28570DB2E62B2D300D47D66 /* QuestionSetSelectionView.swift in Sources */,
+				A20164A32E79554600CB4D70 /* SharedComponents.swift in Sources */,
+				A243D1512EA232E4007C762B /* DebugTimeManager.swift in Sources */,
+				A292ECF22E76690C00D579CB /* RouteB_SmileMonitoringView.swift in Sources */,
+				A20164A52E797D9C00CB4D70 /* CongratulationView.swift in Sources */,
+				A20164892E77B84C00CB4D70 /* AboutView.swift in Sources */,
+				A20164AA2E7AC8C000CB4D70 /* FreeTrialEndedView.swift in Sources */,
+				A20164AB2E7AC8C000CB4D70 /* TrialEndingNotificationView.swift in Sources */,
+				A20164AC2E7AC8C000CB4D70 /* CancellationConfirmationView.swift in Sources */,
+				A201648D2E77C05200CB4D70 /* UsageLimitView.swift in Sources */,
+				A201648F2E77C05200CB4D70 /* SubscriptionView.swift in Sources */,
+				A2985FC72F10AA6500444F5D /* DailyLimitReachedView.swift in Sources */,
+				A2985FC82F10AA6500444F5D /* SimplePurchaseManager.swift in Sources */,
+				A20164BF2E7C0C4000CB4D70 /* CancellationAcknowledgmentView.swift in Sources */,
+				A292ECF32E76690C00D579CB /* RouteA_SmileTrainingView.swift in Sources */,
+				A292ECF42E76690C00D579CB /* WelcomeView.swift in Sources */,
+				A28570E12E6432B300D47D66 /* QuestionsListView.swift in Sources */,
+				A28695462E64885600D1766D /* ResultsView.swift in Sources */,
+				A2CA88772E7041FB006042C0 /* PracticeDataManager.swift in Sources */,
+				A2CA88792E704212006042C0 /* PerformanceMonitor.swift in Sources */,
+				A29D36232ED7FA7C00946BDA /* PrivacyPolicyView.swift in Sources */,
+				A29D36242ED7FA7C00946BDA /* TermsOfServiceView.swift in Sources */,
+				A243D1532EA232F6007C762B /* DebugTimeControlsView.swift in Sources */,
+				A28570D92E62B06900D47D66 /* QuestionSetData.swift in Sources */,
+				A2CA88812E712C14006042C0 /* MemoryProfiler.swift in Sources */,
+				A2CA887B2E704225006042C0 /* NotificationExtensions.swift in Sources */,
+				A28695442E64884400D1766D /* QAPracticeView.swift in Sources */,
+				A28570D72E62AF6D00D47D66 /* Models.swift in Sources */,
+				A2F8F1E42E8D181400B32A19 /* CancellationFlowView.swift in Sources */,
+				A20164C32E7D573F00CB4D70 /* SettingsView.swift in Sources */,
+				A2CA887F2E705578006042C0 /* UltimateCleaner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A2DA44F72E5B18A7003D2749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFF8CCE96342D6B0D90BDFA /* Pods-SmileDetectionApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmileDetectionApp/SmileDetectionApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = VCP64M3454;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmileDetectionApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CheerLens needs access to your camera to detect your facial expressions and analyze smile probability during interview practice. The app uses Google ML Kit Face Detection to process your expressions in real-time and calculate smile confidence scores. All facial analysis is processed locally on your device and is not stored or transmitted to any server. Data is discarded immediately after processing.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikelin.SmileDetectionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2DA44F82E5B18A7003D2749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDE4A02DB10CC564C7944A10 /* Pods-SmileDetectionApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmileDetectionApp/SmileDetectionApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = VCP64M3454;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmileDetectionApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CheerLens needs access to your camera to detect your facial expressions and analyze smile probability during interview practice. The app uses Google ML Kit Face Detection to process your expressions in real-time and calculate smile confidence scores. All facial analysis is processed locally on your device and is not stored or transmitted to any server. Data is discarded immediately after processing.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikelin.SmileDetectionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2DA44F92E5B18A7003D2749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VCP64M3454;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2DA44FA2E5B18A7003D2749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VCP64M3454;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2DA44DE2E5B18A2003D2749 /* Build configuration list for PBXProject "SmileDetectionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DA44F92E5B18A7003D2749 /* Debug */,
+				A2DA44FA2E5B18A7003D2749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DA44F62E5B18A7003D2749 /* Build configuration list for PBXNativeTarget "SmileDetectionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DA44F72E5B18A7003D2749 /* Debug */,
+				A2DA44F82E5B18A7003D2749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2DA44DB2E5B18A2003D2749 /* Project object */;
+}
