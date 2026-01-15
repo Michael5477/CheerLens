@@ -145,6 +145,9 @@ body {
     border: none;
     cursor: pointer;
     font-size: 1rem;
+    pointer-events: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .btn-primary {
